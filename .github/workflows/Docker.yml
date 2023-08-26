@@ -32,7 +32,7 @@ jobs:
          # Build's context is the set of files located in the specified PATH or URL
          context: . #informa que os arquivos estao no repositorio
         # Path to the Dockerfile
-         file: ./Dockerfile #camimho do dockerfile
+         file: /Dockerfile #camimho do dockerfile
         # Push is a shorthand for --output=type=registry
          push:  true #coloca a imagem em algum lugar
         # List of tags
